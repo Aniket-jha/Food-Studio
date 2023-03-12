@@ -1,0 +1,137 @@
+
+.footerMainDiv{
+    background-color: #6E85B7;
+        padding: 60px;
+}
+.footDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+.footBelow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footBox1 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.footBox2 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    grid-column-start: 2;
+        grid-column-end: 3;
+   
+}
+.footBox2 h2{
+    color: white;
+    margin-top: 10px;
+}
+.footBox2 p{
+    color: #d7d7d7;
+}
+
+.footBox3 {
+    color: white;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    grid-column-start: 3;
+        grid-column-end: 4;
+  
+}
+.footBox3 h2{
+    color: white;
+}
+
+.contactInput{
+    outline: none;
+    margin: 6px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+.contactTextArea{
+    outline: none;
+        margin: 6px;
+        padding: 15px;
+        width: 250px;
+        border-radius: 5px;
+        border: none;
+        height: 90px;
+}
+
+.footBox4 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    grid-column-start: 4;
+        grid-column-end: 4;
+}
+
+.addressArea{
+    display: flex;
+    align-items: baseline;
+}
+.addressArea div{
+    margin-left: 10px;
+}
+.footBox1 h5 {
+    font-size: 0.9rem;
+    color: rgb(220, 220, 220);
+    font-family: Open Sans;
+}
+.footBox1 h2{
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.social img {
+    margin: 10px;
+    width: 30px;
+}
+@media screen and (max-width:450px) {
+
+.footDiv {
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+
+    }
+
+.footBox1{
+    margin: 40px 0px;
+}
+.footBox2 {
+    margin: 40px 0px;
+}
+.footBox3 {
+    margin: 40px 0px;
+}
+.footBox4 {
+    margin: 40px 0px;
+}
+
+.social img {
+    margin: 5px;
+    width: 20px;
+}
+.footBelow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footerMainDiv {
+    background-color: #6E85B7;
+    padding: 20px;
+}
+
+ }
